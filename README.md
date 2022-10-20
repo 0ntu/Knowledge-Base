@@ -1,7 +1,15 @@
+[![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
+
 # Knowledge-Base
 Lecture Notes for classes im taking
 
-Shield: [![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
+
+- AP Physics C
+- AP United States History
+
+Written in [Markdown (pandoc)](https://pandoc.org/MANUAL.html#pandocs-markdown), converts to pdf with [pandoc](https://pandoc.org/)
+
+
 
 This work is licensed under a
 [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License][cc-by-nc-sa].
