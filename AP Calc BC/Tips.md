@@ -1,7 +1,20 @@
+COPY THE QUESTIONS CORRECTLY FOR GOD SAKE
+
 # Chapters 1-3
 
 Multiplying by a **NON-CONSTANT** requires the **PRODUCT RULE**
+- Remember Constant Multiple Rule
 $$y=x\sqrt{1-x}$$
+
+Complex *exponents* can be **chain-ruled**
+$$e^{2x}$$
+
+sqrt of whole fraction = scrt of its components
+
+Implicit Differntiation Simplification
+- Separate
+- Put together
+- Factor out $y`$
 
 To simplify ugly expressions from prod. rule
 - Brackets around num. > KCF denominator
