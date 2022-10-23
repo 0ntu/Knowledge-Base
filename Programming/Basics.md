@@ -109,3 +109,39 @@ Always write code prioritized
 convenient and general interface
 *Divide and Conquer* - Take a large problem and divide it into several
 little ones
+
+## Expressions
+
+Most basic building block of programs
+
+Mathematical rules of operator precedence apply (PEMDAS)
+
+### Constants
+
+Named object to which you can't give a new value after it has been
+initialized
+
+*magic constants* - non-obvious literals in code
+* Avoid, makes code unreadable
+* Doesn't explain what the constant is
+
+`const` - variable that cannot be changed after initialization
+* C++98 did not have `constexpr`
+* Variables unknown at compile time
+
+`constexpr` - constant that is computed during compile time
+* Performance improv. over `const`
+* Becomes an integer value composed **only of constants**
+* Must be given a value known at compile time
+
+## Operators
+See *pg. 98*
+
+**lval** - value that can appear on the left-side of an assignment
+
+Do **not** write expressions with two comparison operations
+```
+a<b<c		// Does not mean "Is b between a & c?"
+(true)<c	// Means this instead
+```
+
