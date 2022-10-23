@@ -11,6 +11,8 @@ $$e^{2x}$$
 
 sqrt of whole fraction = scrt of its components
 
+Always use parenthesis / dot to indicate multiplication to avoid confusing negatives
+
 Implicit Differntiation Simplification
 - Separate
 - Put together
