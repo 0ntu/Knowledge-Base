@@ -24,3 +24,7 @@ To simplify ugly expressions from prod. rule
 sqrts
 - Multiplying a sqrt by itself turns it normal
 $$\frac{\sqrt{2ax-x^{2}}}{x}$$
+
+$$a(x+y)+ab =$$
+$$a(x+y+b)$$
+
