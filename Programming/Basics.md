@@ -112,6 +112,7 @@ little ones
 
 ## Expressions
 
+Computes a value from a set of operands using operators
 Most basic building block of programs
 
 Mathematical rules of operator precedence apply (PEMDAS)
@@ -144,4 +145,80 @@ Do **not** write expressions with two comparison operations
 a<b<c		// Does not mean "Is b between a & c?"
 (true)<c	// Means this instead
 ```
+## Conversions
+
+If an *operand* has a type **double**, compiler uses floating-point arithmetic
+If it's both **ints**, compiler uses integer arithmetic
+
+Notation `type{value}` prevents narrowing, while `type(value` does not.
+
+## Statements
+
+Executed in the order they are written
+
+Types:
+- Expressions
+- Declarations
+- Empty Statement
+- `if`-statement
+- `switch`-statement
+- `while`-statement
+- `for`-statement
+
+**Empty Statement** - condition always results in no effect
+```cpp
+if (y==5);
+```
+
+Statements without effects are typically logical errors,
+Expression statements are typically assignmnets, I/O statements, or function calls
+
+**Blocks** are delimited by *{ and }*
+
+### If-Statement
+Selects between two-alternatives, executes if condition true
+```cpp
+if (a<b) {
+	...
+}
+```
+
+### Switch-Statement
+Clearer than nested [if-statements][If-Statement]
+Terminated by a **break**
+If doesn't match any case labels, **default** will be executed
+
+1. Must be integer, char, or enumeration type
+2. case labels must be constant
+3. You cannot use the same value for 2 case labels
+4. You can use several case labels for a single case
+5. Terminate each case with a *Break*
+```cpp
+switch(a) {
+case'0': case'2':
+	...
+	break;
+default:
+	break;
+}
+```
+### While-Statements
+Repeat while condition is true
+```cpp
+while(i<100) {
+	...
+}
+```
+### For-Statements
+Iterates over a sequence of numbers
+*Control Variable* is concentrated at the top
+
+Initializer, Condition, increment operation
+```cpp
+for (int i=0; i<100; ++i) {
+	...}
+```
+**Never modify** the loop variable inside the body of a `for`-statement
+
+## Functions
 
